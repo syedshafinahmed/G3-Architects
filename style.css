@@ -197,6 +197,33 @@
     gap: 130px;
     margin: 100px 0px 200px 0px;
 }
+.f1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.f2{
+    font-size: 16px;
+    font-weight: normal;
+    color: #727272;
+    margin-top: 30px;
+}
+
+.f4{
+    font-size: 20px;
+    font-weight: normal;
+    color: #424242;
+    margin-bottom: 50px;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 150px 0px;
+    gap: 150px;
+}
+.f1, .f2, .f4{
+    text-align: center;
+}
 
 
 @media screen and (max-width: 992px) {
