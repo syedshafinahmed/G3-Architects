@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-.topleft{
+.topleft {
     font-size: 45px;
     font-weight: bold;
     color: #131313;
 }
-.topright{
+
+.topright {
     width: 480px;
     font-size: 18px;
     font-weight: 600;
@@ -22,26 +24,30 @@
     display: flex;
     justify-content: space-between;
 }
-.top{
+
+.top {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     gap: 700px;
     padding-top: 70px;
 }
-.tsone{
+
+.tsone {
     font-size: 64px;
     font-weight: bold;
     color: #131313;
     text-align: center;
 }
-.tstwo{
+
+.tstwo {
     color: #727272;
     font-size: 16px;
     text-align: center;
     margin: 40px 0px 40px 0px;
 }
-.tsbtn{
+
+.tsbtn {
     width: 180px;
     height: 64px;
     border: none;
@@ -49,16 +55,18 @@
     background-color: #FF900E;
     color: white;
     font-size: 20px;
-    font-weight: 600; 
+    font-weight: 600;
 }
-.topsecond{
+
+.topsecond {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 100px 0px 50px 0px;
 }
-.tsimg{
+
+.tsimg {
     width: 1440px;
     height: 700px;
     margin: 0 auto;
@@ -67,11 +75,70 @@
     justify-content: center;
     margin-bottom: 100px;
 }
-.ti{
+
+.ti {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.header{
+
+.header {
     background-color: rgba(255, 144, 14, 0.3)
+}
+
+@media screen and (max-width:576px) {
+    .topleft {
+        font-size: 30px;
+    }
+
+    .topright {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top {
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 20px;
+    }
+
+    .tsone {
+        font-size: 35px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .tstwo {
+        font-size: 12px;
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .tsbtn {
+        width: 100px;
+        height: 36px;
+        font-size: 10px;
+    }
+
+    .topsecond {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tsimg {
+        width: 400px;
+        height: 195px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1000px;
+    }
+
+    .ti {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
