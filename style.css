@@ -152,6 +152,51 @@
     flex-direction: column;
 
 }
+.somefacts{
+    color: #131313;
+    font-size: 45px;
+    font-weight: bold;
+}
+.but{
+    color: #727272;
+    margin-top: 24px;
+}
+.hudai{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.icon{
+    width: 46px;
+    height: 46px;
+}
+.h{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0px 10px 0px;
+}
+.p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.four{
+    width: 242px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #FF900E;
+    border-radius: 8px;
+}
+.fourbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin: 100px 0px 200px 0px;
+}
 
 
 @media screen and (max-width: 992px) {
