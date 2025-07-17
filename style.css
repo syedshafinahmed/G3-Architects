@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 992px) {
     .topleft {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .topright {
@@ -98,26 +98,26 @@
 
     .top {
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 40px;
         gap: 20px;
     }
 
     .tsone {
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
         margin-top: -20px;
     }
 
     .tstwo {
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         margin: 10px 20px 20px 20px;
     }
 
     .tsbtn {
-        width: 100px;
-        height: 36px;
-        font-size: 10px;
+        width: 150px;
+        height: 54px;
+        font-size: 16px;
     }
 
     .topsecond {
@@ -128,12 +128,12 @@
     }
 
     .tsimg {
-        width: 300px;
-        height: 145px;
+        width: 600px;
+        height: 294px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 1000px;
+        margin-bottom: 100px;
     }
 
     .ti {
